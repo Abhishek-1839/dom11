@@ -90,3 +90,15 @@ document.body.append(fir, label_break_1, fir_inp, input_break_1,
                     las, label_break_3, las_inp,input_break_3,
                     eml,label_break_4,eml_inp,input_break_4,
                     addr,label_break_5,addr_inp,input_break_5,button_create);
+function foo() {
+    var res = document.getElementById("first").value;
+    var res1 = document.getElementById("middle").value;
+    var res2 = document.getElementById("last").value;
+    var res3 = document.getElementById("email").value;
+    var res4 = document.getElementById("addres").value;
+    console.log("First name is: ", res);
+    console.log("Middle name is: ", res1);
+    console.log("Last name is: ", res2);
+    console.log("Email-Id is: ", res3);
+    console.log("Address is: ", res4);
+}
